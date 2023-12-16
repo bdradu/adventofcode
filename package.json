@@ -26,5 +26,12 @@
   "dependencies": {
     "commander": "^9.4.1",
     "figlet": "^1.5.2"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true,
+    "printWidth": 120
   }
 }
