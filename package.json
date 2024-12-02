@@ -25,7 +25,8 @@
   },
   "dependencies": {
     "commander": "^9.4.1",
-    "figlet": "^1.5.2"
+    "figlet": "^1.5.2",
+    "ts-node": "^10.9.2"
   },
   "prettier": {
     "trailingComma": "es5",
