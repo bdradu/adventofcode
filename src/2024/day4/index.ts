@@ -4,7 +4,7 @@ import path from 'path';
 export const problem1 = () => {
   const input = fs.readFileSync(path.join(__dirname, './input.txt')).toString();
 
-  const wordSearch = input.split('\r\n').map((line) => line.split(''));
+  const wordSearch = input.split('\n').map((line) => line.split(''));
   const wordToFind = 'XMAS';
   const directions = getPossibleDirectionsForXmas(wordToFind.length);
   let occurences = 0;
@@ -51,7 +51,7 @@ export const problem1 = () => {
 export const problem2 = () => {
   const input = fs.readFileSync(path.join(__dirname, './input.txt')).toString();
 
-  const wordSearch = input.split('\r\n').map((line) => line.split(''));
+  const wordSearch = input.split('\n').map((line) => line.split(''));
   const wordToFind = 'MAS';
   const directions = getPossibleDirections(wordToFind.length);
   let occurences = 0;
