@@ -13,8 +13,6 @@ export const problem1 = () => {
 
   results.sort((a, b) => b - a);
 
-  console.log(results);
-
   return results[0];
 };
 
@@ -29,8 +27,6 @@ export const problem2 = () => {
   );
 
   results.sort((a, b) => b - a);
-
-  console.log(results);
 
   return results[0] + results[1] + results[2];
 };
